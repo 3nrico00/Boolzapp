@@ -9,8 +9,8 @@ const contactStatus = document.querySelector('.contact-status')
 const messages = []
 
 // Preparo l'indirizzo da chiamare
-key_number = 'AIzaSyDrFxFu7D2UQZMDZHPu_wqh1yk1K8SW_1E' // Sostituisci con la tua API key
-const endpoint = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + key_number
+keyNumber = '' // Sostituisci con la tua API key creata da https://aistudio.google.com/api-keys
+const endpoint = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + keyNumber
 
 const systemPrompt = "Sei Silvia, un'amica che risponde in modo amichevole e informale. Rispondi in italiano, con un tono cordiale e naturale. Mantieni le risposte brevi e spontanee."
 
